@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+body{
+    color: black;
+    font-family: 'Wendy One', sans-serif;
+    background: linear-gradient(rgba(255,255,255,0.85),rgba(255,255,255,0.85)) ,url('..//Images/attractive-backdrop-background-988872.jpg');
+    overflow-y: hidden;
+}
+
+
+
+.head{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:50%;
+    justify-content: center;
+    align-items: center; 
+        text-align: center;
+        z-index: 3;
+        background: none;
+}
+
+/*1 rem=24px*/
+.head_title{
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: yellow;
+    font-family: 'Wendy One', sans-serif;
+}
+
+
+.head_socail-icons{
+    display: block;
+    text-decoration: none;
+    color:whitesmoke;
+    border: 0.1rem solid black;
+    border-radius: 50%;
+    padding:0.25 rem;
+    transition: all 0.5s linear;
+    margin-top: 20px;
+    
+}
+
+.head_socail-icons:hover{
+    background: gold;
+    color: black;
+}
+
+.head_icons{
+    width: 50%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4,2rem);
+    grid-column-gap: 5px;
+    justify-content: center;  
+}
+
+.video_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.video_item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media-icon{
+    margin-bottom: 60px;
+}
+
+.message-form-txa {
+    height: 80vh;
+}
+
+@media screen and (max-width:768px){
+    .header{
+        background: url('..//Images/3.jpg');
+        background-position:center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+} 
+
+
+
+@media screen and (min-width:768px){
+    .head_title{
+        font-size: 9rem;
+    }
+}
+
+

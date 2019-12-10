@@ -1,0 +1,74 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+.title{
+    margin-left: 160px;
+    margin-top:50px;
+}
+
+.title_underline{
+    background: goldenrod;
+    width:12rem;
+    height:0.25rem;
+}
+
+.title_name{
+    font-size: 50px;
+}
+.post_recipe{
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.post label,h3{
+    font-size: 30px;
+    padding:10px;
+}
+
+.post input[type="text"]{
+    font-size: 20px;
+}
+.post input[type="submit"]{
+    font-size: 20px;
+    margin-left: 300px;
+    font-family:'Wendy One', sans-serif; 
+    border: 1px solid black;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background:red;
+    border-radius: 20px;  
+}
+
+.post input[type="submit"]:hover{
+    cursor: pointer;
+    background: gold;
+    color: black;
+}
+
+#add_more{
+    font-size: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    background:red;
+    width: 150px;
+    border-radius: 20px;  
+}
+
+#add_more:hover{
+    cursor: pointer;
+    background: gold;
+    color: black;
+}
+textarea{
+    font-size: 20px;
+}
+.remove_button{
+    height: 30px;
+}

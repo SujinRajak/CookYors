@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Wendy+One|Ubuntu');
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*nav-Button*/
+.nav_button{
+    position: fixed;
+    top:5%;
+    right: 5%;
+    font-size: 3.5rem;
+    color: rgb(5, 39, 66);
+    cursor: pointer;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/*nav animation*/
+@keyframes pulse{
+    0%{
+       transform: scale(1); 
+    }
+    50%{
+        transform: scale(1.5); 
+    }
+    100%{
+        transform: scale(1); 
+    }
+}
+
+.nav_bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 14rem;
+    background: rgba(242,180,80,0.9);
+    z-index: 3;
+}
+
+.single_link{
+    display: block;
+    text-decoration:none ;
+    text-transform: capitalize;
+    color: brown;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.single_link:hover{
+    background: brown;
+    color: rgba(242,180,80,0.9);
+    padding-left: 1.5rem;
+
+}
+
+/* hide nav*/
+.nav_bar{
+    width: 0;
+    overflow: hidden;
+    transition: all 0.5s linear;
+}
+
+/*show nav bar*/
+.nav_show{
+    width: 16rem;
+}
+
+/*for login status*/
+.login_status{
+    text-align: center;
+}

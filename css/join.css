@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Wendy One', sans-serif;
+    background-image: url(..//Images/art-color-food-139259.jpg); 
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.join_box{
+    width: 520px;
+    height: 620px;
+   
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-right: 40px;
+    padding: 0 0 30px;
+}
+
+.join_box label{
+    font-size: 20px;
+}
+.join_box input{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.join_box input[type="text"],input[type="email"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+
+.join_box input[type="submit"]{
+    border: 1px solid black;
+    outline: none;
+    height: 40px;
+    background:red;
+    border-radius: 20px;
+}
+
+.join_box input[type="submit"]:hover{
+   cursor: pointer;
+    background: gold;
+    color: black;
+   
+}
+

@@ -1,0 +1,120 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+h1{
+    color: red;
+    text-align: center;
+    justify-content: center;
+    margin-right: 300px;
+    padding-top: 20px;
+}
+
+@media screen and (min-width:468px){
+    .search_div{
+    background-color: black;
+        height: 150px;
+        width: 1696px ;
+        background-position: center;
+        background-attachment: fixed;  
+    }
+}
+.search_div input[type="text"]{
+    font-family: 'Wendy One', sans-serif;
+    margin-top: 18px;
+    margin-left: 170px;
+    height: 30px;
+    width: 1000px;
+}
+
+.search_div button[type="submit"]{
+        font-family:'Wendy One', sans-serif; 
+        border: 1px solid black;
+        outline: none;
+        height: 40px;
+        width: 200px;
+        background:red;
+        border-radius: 20px;
+        font-size: 30px;
+        margin-left: 20px;   
+}
+
+.search_div button[type="submit"]:hover{
+    cursor: pointer;
+    background: gold;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+.article{
+    max-width: 40vw;
+    margin-left: 300px;
+    margin-top:2rem;
+    position: relative;
+}
+
+
+.article_image{
+    background: linear-gradient(goldenrod,goldenrod); 
+    overflow: hidden;
+}
+.image{
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: all 1s linear;
+  opacity: 1;  
+}
+
+.article_image:hover .ddimage{
+opacity: 0.5;
+transform: scale(1.2);
+}
+
+.article_image .icon{
+    position: absolute;
+    color: yellow;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    font-size: 4rem;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    transform: scale(0);
+} 
+
+.article :hover .icon{
+    transform: scale(1.3) translate(-50%,-50%);
+}
+
+.article_image .icon:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+.article_content_name{
+    font-size: 30px;
+    color: red;
+}
+
+.article_content_posted_by,.ingtit{
+    font-size: 20px;
+}
+
+.article_content{
+    width: 400px;
+}
+
+.article_content_description{
+    color: black;
+    
+}
+
+.article_content_time{
+    color: goldenrod;
+    font-size: 20px;
+}
+
+hr{
+    width: 1000px;
+}

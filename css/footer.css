@@ -1,0 +1,54 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+/*login and join */
+
+.login{
+    position: fixed;
+    right:2%;
+    bottom: 2%;
+    display: block;
+    color:darkcyan;
+}
+
+
+button{
+    width: 120px;
+    height: 50px;
+    font-size:20px;  
+}
+
+#login{
+    background-color:#fff ;
+    color: #1da1f2;
+}
+
+#login:hover{
+    background: gold;
+    color: #1da1f2;
+}
+
+.button_wrapper{
+    display: table;
+    width: 100%;
+    max-width: 291px;
+    margin: 0 auto;
+    
+}
+
+.right-btn {
+    display: table-cell;
+}
+
+.left-btn {
+    display: table-cell;
+    width: 50%;
+    float: left;
+}
+
+.buttonlog_wrapper{
+    float:right;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    margin-left:5px;
+}
+
