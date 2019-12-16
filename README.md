@@ -1,2 +1,3 @@
 # CookYors
 Web Based application
+For the chat system to work you need to install Rachet library....
